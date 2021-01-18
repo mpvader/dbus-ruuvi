@@ -23,6 +23,8 @@ And then from your host, run:
 scp -r -P 4000 ./dbus-ruuvi root@localhost:~/
 ```
 
+Finally, back on the GX Device, make for a way to run this code at boot, or even better - as a service watched by daemontools.
+
 ## Things to do
 As said, this is merely a proof of concept. Even though it seems to run rather stable on the system where this all began since I needed to monitor a few temperatures.
 
